@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Gym Name</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#trainer">Trainer</a></li>
+                <li class="nav-item"><a class="nav-link" href="#offer">Weekly Offer</a></li>
+                <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Scroll-to-Top Button -->
+    <button id="scrollTopBtn" title="Go to top">Top</button>
+
+    <!-- Trainer Intro Section -->
+    <section id="trainer" class="container my-5" data-aos="fade-up">
+        <h2>Trainer Introduction</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="trainer.jpg" alt="Trainer Photo" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-8">
+                <h3>John Doe</h3>
+                <p>John Doe is a certified personal trainer with over 10 years of experience...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weekly Offer Section -->
+    <section id="offer" class="bg-light py-5 text-center" data-aos="fade-up">
+        <div class="container">
+            <h2>Weekly Offer</h2>
+            <p class="lead">Get 20% off on all memberships this week!</p>
+        </div>
+    </section>
+
+    <!-- Gym Overview Section -->
+    <section id="overview" class="container my-5" data-aos="fade-up">
+        <h2>Gym Overview</h2>
+        <p>Our gym offers state-of-the-art equipment, experienced trainers, and a friendly environment...</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-light py-5" data-aos="fade-up">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Personal Training</h4>
+                    <p>One-on-one sessions with our experienced trainers...</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Group Classes</h4>
+                    <p>Join our group classes for a fun and energetic workout...</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Nutrition Advice</h4>
+                    <p>Get personalized nutrition plans to achieve your goals...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Contact us at: <a href="mailto:info@gymwebsite.com">info@gymwebsite.com</a></p>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="container my-5" data-aos="fade-up">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h4 class="faq-question">What are your operating hours?</h4>
+            <p class="faq-answer">We are open from 6 AM to 10 PM, Monday through Sunday.</p>
+        </div>
+        <div class="faq-item">
+            <h4 class="faq-question">Do you offer personal training?</h4>
+            <p class="faq-answer">Yes, we have certified personal trainers available for one-on-one sessions.</p>
+        </div>
+        <div class="faq-item">
+            <h4 class="faq-question">What is your membership policy?</h4>
+            <p class="faq-answer">We offer various membership plans. Please visit our front desk or website for more details.</p>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
